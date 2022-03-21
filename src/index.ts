@@ -27,13 +27,11 @@ function buttonSubmitClick() {
 	//Condicional por si isPalindrome nos da "true"
 	if (result == true) {
 		//Actualiza el div para indicar que es palindromo y aplica estilo css
-		console.log("Palindromo");
 		resultadoDiv.innerHTML = "The word is palindrome!"
 		resultadoDiv.classList.add('palindrome');
 	}
 	else {
 		//Actualiza el div para indicar que no es palindromo y aplica estilo css
-		console.log("Not Palindrome");
 		resultadoDiv.innerHTML = "The word is not palindrome"
 		resultadoDiv.classList.add('notPalindrome');
 	}

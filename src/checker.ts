@@ -3,6 +3,9 @@
 //Creamos funcion isPalindrome con argumento text de tipo string
 function isPalindrome(text: string) {
 
+    //Pasamos la palabra a minusculas
+    text = text.toLowerCase( );
+
     //Convertimos el texto en un array
     const arrayText = text.split('');
 
